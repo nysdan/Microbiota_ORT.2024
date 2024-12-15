@@ -39,7 +39,7 @@ if tuple(float(v) for v in version.split(".")) < (2021, 4):
 else:
     pyver = "38"
 
-CONDA = "mamba"
+CONDA = "conda"
 CONDA_ARGS = ["-q"]
 
 if tuple(float(v) for v in version.split(".")) < (2023, 9):
